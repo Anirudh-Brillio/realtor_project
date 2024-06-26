@@ -1,24 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import "./App.css";
+import HomePage from "./Component/Home/HomePage";
+import PropertyListing from "./Component/PropertyListing.js";
+import PropertyDetailPage from "./Component/PropertyDetailPage.js";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage></HomePage>}></Route>
+        <Route
+          path="/New Listings"
+          element={<PropertyListing PropertyName={"New Listings"} />}
+        ></Route>
+        <Route
+          path="/Price reduced"
+          element={<PropertyListing PropertyName={"Price reduced"} />}
+        ></Route>
+        <Route
+          path="/New construction"
+          element={<PropertyListing PropertyName={"New construction"} />}
+        ></Route>
+        <Route
+          path="/Open houses"
+          element={<PropertyListing PropertyName={"Open houses"} />}
+        ></Route>
+        <Route
+          path="/Recently sold"
+          element={<PropertyListing PropertyName={"Recently sold"} />}
+        ></Route>
+        <Route
+          path="/New home communities"
+          element={<PropertyListing PropertyName={"New home communities"} />}
+        ></Route>
+        <Route
+          path="/Land"
+          element={<PropertyListing PropertyName={"Land"} />}
+        ></Route>
+        <Route
+          path="/Condos"
+          element={<PropertyListing PropertyName={"Condos"} />}
+        ></Route>
+        <Route path="/detailed/:id" element={<PropertyDetailPage/>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
