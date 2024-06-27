@@ -6,7 +6,6 @@ This project is a React JS frontend application with JSON Server serving as the 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running the Project](#running-the-project)
-- [Project Structure](#project-structure)
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
