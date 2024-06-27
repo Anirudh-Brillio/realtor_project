@@ -19,7 +19,7 @@ Before you begin, ensure you have the following installed:
 
     ```bash
    git clone https://github.com/your-username/your-repo-name.git](https://github.com/Anirudh-Brillio/realtor_project.git
-    cd your-repo-name
+    cd realtor
     ```
 
 2. **Install the dependencies**
