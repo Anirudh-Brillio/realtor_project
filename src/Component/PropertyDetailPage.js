@@ -48,7 +48,7 @@ function PropertyDetailPage() {
           <li className="flex items-center"><FaBath className="mr-2 text-2xl text-blue-900" /> <strong>Bathrooms:</strong> {propertyDetail.bathrooms}</li>
           <li className="flex items-center"><FaCalendarAlt className="mr-2 text-2xl text-blue-900" /> <strong>Year Built:</strong> {propertyDetail.year_built}</li>
           <li className="flex items-center">
-            <strong>Amenities:</strong>
+            <h1 className='font-bold'>Amenities:</h1>
             <div className="flex space-x-4 ml-4">
               {propertyDetail.amenities.map((amenity, index) => (
                 <span key={index} title={amenity} className='flex items-center gap-2 text-blue-900 border-2 border-blue-900 hover:bg-blue-900 hover:text-white p-2 rounded-xl '>{amenityIcons[amenity]} {amenity}</span>

@@ -25,7 +25,6 @@ function HomePage() {
   }, []);
 
   useEffect(() => {
-    const debounce = setTimeout(() => {
       if (searchItem.trim().length === 0) {
         setFilteredListings([]);
       } else {
@@ -35,10 +34,7 @@ function HomePage() {
           listing.location.toLowerCase().includes(searchItem.toLowerCase())
         );
         setFilteredListings(filtered);
-      }
-    }, 300); // Debounce by 300ms
-
-    return () => clearTimeout(debounce);
+      }  
   }, [searchItem, properties]);
 
   return (
