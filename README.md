@@ -8,8 +8,6 @@ This project is a React JS frontend application with JSON Server serving as the 
 - [Running the Project](#running-the-project)
 - [Project Structure](#project-structure)
 - [Available Scripts](#available-scripts)
-- [Endpoints](#endpoints)
-
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
@@ -38,7 +36,7 @@ Before you begin, ensure you have the following installed:
     JSON Server will serve as your backend. You need to create a `db.json` file in the root directory with your initial data.
 
     ```bash
-    npx json-server --watch db.json --port 5000
+    npx json-server --watch db.json --port 3001
     ```
 
     This will start JSON Server on [http://localhost:5000](http://localhost:5000).
