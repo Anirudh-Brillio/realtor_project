@@ -52,7 +52,7 @@ function HomePage() {
           <SearchProperty key={property.id} data={property} />
         ))}
         </div>
-      <div className='grid grid-cols-4 text-center px-40'>
+      <div className='grid grid-cols-4 text-center mx-10'>
         {searchItem.length === 0 && listings.map(card => (
           <HomeSiteCard key={card.id} data={card} />
         ))}

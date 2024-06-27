@@ -23,7 +23,7 @@ function SearchProperty({ data }) {
         <div className="flex items-center text-gray-600 mb-5">
           <span className="font-bold">Quantity:</span> {data.quantity}
         </div>
-        <Link to={`/detailed/${data.id}`} className='bg-red-600 px-2 py-1 rounded-md text-white mt-2'>See More</Link>
+        <Link to={`/detailes/${data.id}`} className='bg-blue-900 px-2 py-1 rounded-md text-white mt-2'>See More</Link>
       </div>
     </div>
   );

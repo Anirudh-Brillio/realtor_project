@@ -3,6 +3,7 @@ import "./App.css";
 import HomePage from "./Component/Home/HomePage";
 import PropertyListing from "./Component/PropertyListing.js";
 import PropertyDetailPage from "./Component/PropertyDetailPage.js";
+import NotFoundPage from "./Component/NotFoundPage.js";
 
 function App() {
   return (
@@ -41,7 +42,8 @@ function App() {
           path="/Condos"
           element={<PropertyListing PropertyName={"Condos"} />}
         ></Route>
-        <Route path="/detailed/:id" element={<PropertyDetailPage/>} />
+        <Route path="/detailes/:id" element={<PropertyDetailPage/>} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
   );

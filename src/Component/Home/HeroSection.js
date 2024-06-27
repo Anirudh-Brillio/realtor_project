@@ -28,7 +28,6 @@ function HeroSection({ setSearchItem }) {
           <Link className="hover:border-b-4 hover:border-white cursor-pointer" to={'Land'}>Sell</Link>
           <Link className="hover:border-b-4 hover:border-white cursor-pointer" to={'New home communities'}>Pre-approval</Link>
           <Link className="hover:border-b-4 hover:border-white cursor-pointer" to={'Recently sold'}>Just Sold</Link>
-          <Link className="hover:border-b-4 hover:border-white cursor-pointer" to={'Home Value'}>Home Value</Link>
         </ul>
         <form className="flex justify-center items-center w-full max-w-lg text-black bg-white rounded-full" onSubmit={handleSearch}>
           <input
