@@ -7,7 +7,6 @@ This project is a React JS frontend application with JSON Server serving as the 
 - [Installation](#installation)
 - [Running the Project](#running-the-project)
 - [Project Structure](#project-structure)
-- [Available Scripts](#available-scripts)
 ## Prerequisites
 
 Before you begin, ensure you have the following installed:
@@ -51,6 +50,4 @@ Before you begin, ensure you have the following installed:
 
     This will start the React application on [http://localhost:3000](http://localhost:3000).
 
-## Project Structure
 
-githu
