@@ -4,10 +4,13 @@ import HomePage from "./Component/Home/HomePage";
 import PropertyListing from "./Component/PropertyListing.js";
 import PropertyDetailPage from "./Component/PropertyDetailPage.js";
 import NotFoundPage from "./Component/NotFoundPage.js";
+import Breadcrumbs from "./Breadcrumbs.js";
 
 function App() {
   return (
+    <>
     <BrowserRouter>
+    <Breadcrumbs/>
       <Routes>
         <Route path="/" element={<HomePage></HomePage>}></Route>
         <Route
@@ -21,31 +24,32 @@ function App() {
         <Route
           path="/New construction"
           element={<PropertyListing PropertyName={"New construction"} />}
-        ></Route>
+          ></Route>
         <Route
           path="/Open houses"
           element={<PropertyListing PropertyName={"Open houses"} />}
-        ></Route>
+          ></Route>
         <Route
           path="/Recently sold"
           element={<PropertyListing PropertyName={"Recently sold"} />}
-        ></Route>
+          ></Route>
         <Route
           path="/New home communities"
           element={<PropertyListing PropertyName={"New home communities"} />}
-        ></Route>
+          ></Route>
         <Route
           path="/Land"
           element={<PropertyListing PropertyName={"Land"} />}
-        ></Route>
+          ></Route>
         <Route
           path="/Condos"
           element={<PropertyListing PropertyName={"Condos"} />}
-        ></Route>
+          ></Route>
         <Route path="/detailes/:id" element={<PropertyDetailPage/>} />
         <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
+  </>
   );
 }
 
