@@ -7,3 +7,4 @@ metadata:
 spec:
   type: other
   lifecycle: unknown
+  owner: "Anirudh Kulkarni"  # Example value, replace with appropriate owner information
