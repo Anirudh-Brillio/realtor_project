@@ -6,5 +6,5 @@ metadata:
     github.com/project-slug: Anirudh-Brillio/realtor_project
 spec:
   type: other
-  lifecycle: unknown
+  lifecycle: development
   owner: "guests"  # Example value, replace with appropriate owner information
