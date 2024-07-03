@@ -1,10 +1,15 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: website
 metadata:
   name: realtor_project
   annotations:
     github.com/project-slug: Anirudh-Brillio/realtor_project
+  tags: 
+    - React.js
+    - Json Server
+    - realestate 
+    - development
 spec:
   type: other
-  lifecycle: unknown
-  owner: "Guests"  # Example value, replace with appropriate owner information
+  lifecycle: production
+  owner: "guests"  # Example value, replace with appropriate owner information
