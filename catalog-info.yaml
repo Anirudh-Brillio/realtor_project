@@ -1,7 +1,8 @@
 apiVersion: backstage.io/v1alpha1
-kind: website
+kind: Component
 metadata:
   name: realtor_project
+  description: A project related to real estate built using React.js and Json Server.
   annotations:
     github.com/project-slug: Anirudh-Brillio/realtor_project
   tags: 
@@ -10,6 +11,7 @@ metadata:
     - realestate 
     - development
 spec:
-  type: other
+  type: website
   lifecycle: production
-  owner: "guests"  # Example value, replace with appropriate owner information
+  owner: guests
+  system: realestate-system
