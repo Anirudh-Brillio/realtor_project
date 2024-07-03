@@ -3,13 +3,8 @@ kind: Component
 metadata:
   name: realtor_project
   links: 
-<<<<<<< HEAD
-    - url : www.google.com
-    - title : google site
-=======
     - url: www.google.com
       title: google site
->>>>>>> 72abda259bc56d877f326cd733545c4ce169cee3
   description: A project related to real estate built using React.js and Json Server.
   annotations:
     github.com/project-slug: Anirudh-Brillio/realtor_project
