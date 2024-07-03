@@ -6,10 +6,10 @@ metadata:
   annotations:
     github.com/project-slug: Anirudh-Brillio/realtor_project
   tags: 
-    - React-js
-    - Json Server
-    - realestate 
-    - development
+    - "React-js"
+    - "Json Server"
+    - "realestate" 
+    - "development"
 spec:
   type: website
   lifecycle: production
