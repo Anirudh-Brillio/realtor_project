@@ -2,9 +2,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: realtor_project
-  links: 
-    - url: www.google.com
-    - title: google site
   description: A project related to real estate built using React.js and Json Server.
   annotations:
     github.com/project-slug: Anirudh-Brillio/realtor_project
@@ -12,8 +9,11 @@ metadata:
     - react-js
     - json-server
     - realestate
-    - node js
+    - node-js
     - development
+  links:
+    - url: https://www.google.com
+      title: google site
 spec:
   type: website
   lifecycle: production
