@@ -7,6 +7,7 @@ metadata:
     github.com/project-slug: Anirudh-Brillio/realtor_project
     circleci.com/project-slug: gh/Anirudh-Brillio/realtor_project
     backstage.io/visibility: "catalog,metadata,overview"
+    backstage.io/techdocs-ref: url:https://github.com/Anirudh-Brillio/realtor_project/blob/main/README.md
   tags: 
     - react-js
     - json-server

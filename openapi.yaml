@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: realtor-api
+  description: The API for the Realtor Project.
+  tags:
+    - realestate
+    - api
+    - development
+spec:
+  type: openapi
+  lifecycle: production
+  owner: guests
+  definition: https://raw.githubusercontent.com/Anirudh-Brillio/realtor_project/main/openapi.yaml
