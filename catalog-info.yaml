@@ -7,7 +7,6 @@ metadata:
     github.com/project-slug: Anirudh-Brillio/realtor_project
     circleci.com/project-slug: gh/Anirudh-Brillio/realtor_project
     backstage.io/visibility: "catalog,metadata,overview"
-    backstage.io/techdocs-ref: url:https://github.com/Anirudh-Brillio/realtor_project/blob/main/README.md
   tags: 
     - react-js
     - json-server
@@ -17,23 +16,10 @@ metadata:
   links:
     - url: https://www.google.com
       title: google site
+    - url: https://realtor-demo-assignment.netlify.app/
+      title: netlify
 spec:
   type: website
   lifecycle: production
   owner: guests
-  # system: realestate-system
-
-apiVersion: backstage.io/v1alpha1
-kind: API
-metadata:
-  name: realtor-api
-  description: The API for the Realtor Project.
-  tags:
-    - realestate
-    - api
-    - development
-spec:
-  type: openapi
-  lifecycle: production
-  owner: guests
-  definition: https://raw.githubusercontent.com/Anirudh-Brillio/realtor_project/main/openapi.yaml
+  # system: realestate-system+
