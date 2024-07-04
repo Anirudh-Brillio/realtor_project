@@ -6,7 +6,7 @@ metadata:
   annotations:
     github.com/project-slug: Anirudh-Brillio/realtor_project
     circleci.com/project-slug: gh/Anirudh-Brillio/realtor_project
-    backstage.io/visibility: "catalog,metadata,overview" # Disable specific tabs
+    backstage.io/visibility: "catalog,metadata,overview"
   tags: 
     - react-js
     - json-server
