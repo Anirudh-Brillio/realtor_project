@@ -22,4 +22,3 @@ spec:
   type: website
   lifecycle: production
   owner: guests
-  # system: realestate-system+
