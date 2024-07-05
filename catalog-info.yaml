@@ -20,7 +20,7 @@ metadata:
     - url: https://realtor-demo-assignment.netlify.app/
       title: netlify
 spec:
-  type: website
-  lifecycle: production
-  owner: guests
-  subcomponentOf: realtor_project
+  type: library
+  lifecycle: experimental
+  owner: cncf
+  subcomponentOf: backstage
