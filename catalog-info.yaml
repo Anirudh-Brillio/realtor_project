@@ -22,5 +22,5 @@ metadata:
 spec:
   type: library
   lifecycle: experimental
-  owner: cncf
-  subcomponentOf: backstage
+  owner: guests
+  subcomponentOf: realtor_project
