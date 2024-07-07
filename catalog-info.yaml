@@ -17,8 +17,10 @@ metadata:
   links:
     - url: https://www.google.com
       title: google site
+    - url: https://realtor-demo-assignment.netlify.app/
+      title: netlify
 spec:
-  type: website
-  lifecycle: production
+  type: library
+  lifecycle: experimental
   owner: guests
-  # system: realestate-system
+  subcomponentOf: realtor-project
